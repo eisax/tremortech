@@ -1,0 +1,62 @@
+name: tremortech
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  shared_preferences: ^2.2.0
+  lottie: ^2.5.0
+  font_awesome_flutter: ^10.5.0
+  flutter_svg: ^2.0.10+1
+  device_preview: ^1.1.0
+  image_picker: ^1.0.7
+  shimmer: ^3.0.0
+  connectivity_plus: ^2.3.8
+  dio: ^5.4.1
+  pull_to_refresh: ^2.0.0
+  flutter_staggered_grid_view: ^0.7.0
+  cached_network_image: ^3.3.1
+  image_gallery_saver: ^2.0.3
+  permission_handler: ^11.3.0
+  stroke_text: ^0.0.2
+  smooth_page_indicator: ^1.1.0
+  flutter_quill: ^9.3.6
+  dotted_border: ^2.1.0
+  share_plus: ^9.0.0
+  url_launcher: ^6.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/language/
+    - assets/images/icons/
+    - assets/images/logo/
+    - assets/images/billboads/
+    - assets/images/profile/
+    - assets/images/icons/categories/
+    - assets/images/products/bathtub/
+    - assets/images/products/sink/
+    - assets/images/products/toilet/
+    - assets/images/langauges/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900
